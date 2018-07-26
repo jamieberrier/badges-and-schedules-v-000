@@ -20,7 +20,7 @@ def assign_rooms(speakers)
   while counter < speakers.size do
     speakers.each_with_index do |name|
     array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{counter+1}!"
-  
+
     counter += 1
     end
   end
@@ -29,6 +29,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees)
-  assign_rooms(attendees)
+  batch_badge_creator(attendees) #returns array of badges
+  assign_rooms(attendees) #returns array of room assignments
 end
