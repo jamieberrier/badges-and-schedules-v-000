@@ -30,8 +30,8 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |badge|#returns array of badges
-
-  end
+    puts batch_badge_creator(badge)
+end
   assign_rooms(attendees).each do |room_assignments| #returns array of room assignments
 
   end
