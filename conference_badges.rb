@@ -33,4 +33,6 @@ def printer(attendees)
 
   end
   assign_rooms(attendees).each do |room_assignments| #returns array of room assignments
+
+  end
 end
