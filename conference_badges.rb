@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 
   while counter < speakers.size do
     speakers.each_with_index do |name|
-    array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{index+1}!"
+    array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{speakers.index+1}!"
   #  binding.pry
     counter += 1
     end
