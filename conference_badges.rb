@@ -32,7 +32,7 @@ def printer(attendees)
   batch_badge_creator(attendees).each do |badge|#returns array of badges
     puts badge
 end
-  assign_rooms(attendees).each do |room_assignments| #returns array of room assignments
-
+  assign_rooms(attendees).each do |room_assignment| #returns array of room assignments
+    puts room_assignment
   end
 end
