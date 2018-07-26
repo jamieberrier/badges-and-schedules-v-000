@@ -25,7 +25,7 @@ def assign_rooms(speakers)
     end
   end
   array_of_room_assignments
-  binding.pry
+  #binding.pry
 end
 
 # def printer(attendees)
