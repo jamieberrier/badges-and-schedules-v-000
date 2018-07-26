@@ -22,7 +22,6 @@ def assign_rooms(speakers)
     array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{counter+1}!"
 
     counter += 1
-    binding.pry
     end
   end
   array_of_room_assignments
