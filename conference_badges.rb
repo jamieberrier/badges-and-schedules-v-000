@@ -14,9 +14,14 @@ end
 
 def assign_rooms(speakers)
   array_of_room_assignments = []
-  
-  speakers.each_with_index do |name|
-      array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{speakers[index]}!"
+  counter = 0
+
+  while counter < 7 do
+    speakers.each_with_index do |name|
+    array_of_room_assignments << "Hello, #{name}! You'll be assigned to room #{speakers[index]}!"
+
+    counter += 1
+    end
   end
   array_of_room_assignments
 end
